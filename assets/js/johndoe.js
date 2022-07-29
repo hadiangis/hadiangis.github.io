@@ -60,12 +60,12 @@ $(window).on("load", function() {
 function initMap() {
 // Styles a map in night mode.
     var map = new google.maps.Map(document.getElementById('map'), {
-        center: {lat: 40.674, lng: -73.945},
-        zoom: 12,
-        scrollwheel:  false,
-        navigationControl: false,
-        mapTypeControl: false,
-        scaleControl: false,
+        center: {lat: 3.160027, lng: 99.330987},
+        zoom: 17,
+        scrollwheel:  true,
+        navigationControl: true,
+        mapTypeControl: true,
+        scaleControl: true,
       styles: [
         {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
         {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
